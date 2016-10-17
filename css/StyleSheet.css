@@ -1,0 +1,90 @@
+﻿body {
+
+}
+
+/*Customize profile image*/
+.profile-img-wrapper{
+    max-width:20em;
+    margin: auto;
+}
+
+/*Change Horizonal Rules Styles*/
+hr.style-one {
+    border: 0;
+    height: 6px;
+    background-image: linear-gradient(to right, rgba(0,0,0, 0), rgba(0,0,0, 0.75), rgba(0,0,0, 0));
+}
+
+hr.style-two {
+    border: 0;
+    height: 6px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+
+/*Responsive padding on top of profile image*/
+header .container {
+    padding-top: 15%;
+}
+
+/*Make icons from Devicons.com and icon images the same height in lists*/
+li i, li img{
+    position:relative;
+    font-size:3em;
+    max-height:1em;
+    bottom:-.3em;
+}
+
+header {
+     background: unset;
+     background-image: url('../img/parallax4.jpg');
+     /* Set a specific height */
+     height: 100%;
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+ }
+ 
+ #about {
+     background: unset;
+     background-image: url('../img/parallax5.jpg');
+     /* Set a specific height */
+     height: 100%;
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
+ /*Style for resume button*/
+ .res-doc{
+     top:-1px;
+     border-radius: 5px;
+     border: 1px solid white;
+     border-color: white;
+     background-color: rgba(255,255,255,.10);
+ }
+
+ .res-doc:hover{
+     background-color: rgba(255,255,255,.30);
+ }
+
+ /*Modify Template Colors*/
+ .navbar-custom{
+     background: linear-gradient(rgb(0,0,0), rgba(50,50,50,.9), rgba(0, 0, 0,.7) );
+ }
+
+ footer .footer-above,footer .footer-below{
+     background-color:black;
+ }
+
+/*Regulate height above profile image on boostrap:lg screen*/
+@media (min-width: 767px){
+    header .container{
+        padding-top:10em;
+    }
+}
