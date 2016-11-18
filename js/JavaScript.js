@@ -1,5 +1,5 @@
 ﻿
-<<<<<<< HEAD
+
 $(document).ready(function(){
     
 
@@ -18,8 +18,7 @@ $(document).ready(function(){
 });
 
 
-=======
->>>>>>> 18d7fb968bf8716237a607a5cbff8c1d4cca5dd2
+
 /*Change navbar transparency on scroll down*/
 function checkScroll() {
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
