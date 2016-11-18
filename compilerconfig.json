@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "less/variables.css",
+    "inputFile": "less/variables.less"
+  },
+  {
+    "outputFile": "less/freelancer.css",
+    "inputFile": "less/freelancer.less"
+  },
+  {
+    "outputFile": "less/freelancer-custom.css",
+    "inputFile": "less/freelancer-custom.less"
+  },
+  {
+    "outputFile": "less-css/freelancer-custom.css",
+    "inputFile": "less-css/freelancer-custom.less"
+  }
+]
