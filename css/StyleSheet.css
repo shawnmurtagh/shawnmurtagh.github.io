@@ -22,6 +22,19 @@ h1,h2,h3,h4,h5,h6,.navbar-brand, nav a, header .intro-text .name{
     transition:ease-in-out .5s;
 }
 
+/*adjust to fit buttons on medium screen*/
+@media (min-width: 768px){ 
+    .navbar-custom .navbar-brand {
+        font-size:24px;
+}
+}
+
+/*adjust to fit buttons on large screen*/
+@media (min-width: 992px){ 
+    .navbar-custom .navbar-brand {
+        font-size:30px;
+}
+}
 
 /*Customize profile image*/
 .profile-img-wrapper{

@@ -14,5 +14,9 @@
   {
     "outputFile": "less-css/freelancer-custom.css",
     "inputFile": "less-css/freelancer-custom.less"
+  },
+  {
+    "outputFile": "less-css/variables.css",
+    "inputFile": "less-css/variables.less"
   }
 ]
