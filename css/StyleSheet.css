@@ -22,8 +22,13 @@ h1,h2,h3,h4,h5,h6,.navbar-brand, nav a, header .intro-text .name{
     transition:ease-in-out .5s;
 }
 
+/*adjust to fit buttons on small screen*/
+    .navbar-custom .navbar-brand {
+        font-size:14px;
+}
+
 /*adjust to fit buttons on medium screen*/
-@media (min-width: 768px){ 
+@media (min-width:470px){ 
     .navbar-custom .navbar-brand {
         font-size:24px;
 }
@@ -115,7 +120,11 @@ header {
 
 
 
- footer .footer-above,footer .footer-below{
+ footer .footer-above{
+     background: linear-gradient(rgb(75,0,130), rgb(0,0,0) );
+ }
+ 
+ footer .footer-below{
      background-color:black;
  }
 
